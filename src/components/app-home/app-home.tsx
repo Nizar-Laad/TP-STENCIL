@@ -35,6 +35,10 @@ export class AppHome {
     return (
       
       <div class='app-home'>
+      <stencil-route-link url='/ajout'>
+        <button>Nouveau Article</button>
+        </stencil-route-link>
+        <br/>
       {this.articles.map(elem => 
       <article>
       
@@ -53,9 +57,7 @@ export class AppHome {
       )}
       
     <p>
-    <stencil-route-link url='/ajout'>
-        <button>Nouveau Article</button>
-        </stencil-route-link>
+    
     </p>
   
  

@@ -19,8 +19,7 @@ button {
     box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
     transform: translateY(1px);
   }
-  textarea {
-      rows:4;
-      columns:50;
-
-  }
+  textarea{
+    height:250px;
+    width:400px;
+}

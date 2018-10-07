@@ -12,7 +12,7 @@ export class AppRoot {
     return (
       <div>
         <header>
-        <stencil-route-link url="/"> <div><h1>Blog des articles </h1></div></stencil-route-link>
+        <stencil-route-link url="/"> <h1>Blog des articles </h1></stencil-route-link>
       
         </header> 
 
